@@ -170,4 +170,23 @@ This command will checkout your new branch with teh dev branch serving as the he
 
 Once you have finished writing the code for your ticket, feature, bug, etc., you will want to pull those changes into the dev branch. In most cases, only code in the dev branch is ever merged with main. If you want your code to be included in a stable release, you will first have to generate a pull request into dev.
 
-This is done throught the GitHub website. Navigate to your branch and at the top of the screen, you should see a 
+This is done throught the GitHub website. Navigate to your branch and at the top of the screen, you should see banner asking if you would like to generate a pull request. select the button.
+
+![Generate pull request](assets/generatePR.png)
+
+After selecting the generate pull request button, you will be take to the PR screen. Check to make sure the PR has not automatically assumed you would like to pull this code into main. If it says main, switch the option to dev. Code contributors can only generate PRs for the dev branch. Only on rare occasions are PRs into main accepted.
+
+![Top of the PR page](assets/prTop)
+![Branch options](assets/branchOptions)
+![Selected dev branch](assets/afterSwitch)
+
+Once you have selected the correct branch as base, you can continue to write a description of the PR. As a requirement for accepting a PR, you must write a description that conforms to the PR template which can be found [here](pull_request_template.md).
+
+
+![PR template](assets/prTemplate)
+![PR template preview](assets/prTemplatePreview)
+
+If all the items have been documented and the checklist items have been completed, you can submit your PR. 
+
+
+
