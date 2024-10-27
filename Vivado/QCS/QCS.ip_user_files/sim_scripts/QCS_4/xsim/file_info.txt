@@ -1,0 +1,9 @@
+QCS_4_QCS_no_lut_0_0.v,verilog,xil_defaultlib,../../../bd/QCS_4/ip/QCS_4_QCS_no_lut_0_0/sim/QCS_4_QCS_no_lut_0_0.v,
+QCS_4_QCS_no_lut_1_0.v,verilog,xil_defaultlib,../../../bd/QCS_4/ip/QCS_4_QCS_no_lut_1_0/sim/QCS_4_QCS_no_lut_1_0.v,
+QCS_4_QCS_no_lut_2_0.v,verilog,xil_defaultlib,../../../bd/QCS_4/ip/QCS_4_QCS_no_lut_2_0/sim/QCS_4_QCS_no_lut_2_0.v,
+QCS_4_QCS_no_lut_3_0.v,verilog,xil_defaultlib,../../../bd/QCS_4/ip/QCS_4_QCS_no_lut_3_0/sim/QCS_4_QCS_no_lut_3_0.v,
+QCS_4_addr_mux_0_0.v,verilog,xil_defaultlib,../../../bd/QCS_4/ip/QCS_4_addr_mux_0_0/sim/QCS_4_addr_mux_0_0.v,
+QCS_4_rpm_lut_0_0.v,verilog,xil_defaultlib,../../../bd/QCS_4/ip/QCS_4_rpm_lut_0_0/sim/QCS_4_rpm_lut_0_0.v,
+QCS_4_clk_cascade_0_0.v,verilog,xil_defaultlib,../../../bd/QCS_4/ip/QCS_4_clk_cascade_0_0/sim/QCS_4_clk_cascade_0_0.v,
+QCS_4.v,verilog,xil_defaultlib,../../../bd/QCS_4/sim/QCS_4.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

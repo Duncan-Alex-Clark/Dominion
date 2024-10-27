@@ -1,0 +1,5 @@
+Breakpoint File Version 1.0
+73,true,"/home/duncan/QCS/QCS.srcs/sim_1/new/QCS_sim.v"
+75,true,"/home/duncan/QCS/QCS.srcs/sim_1/new/QCS_sim.v"
+77,true,"/home/duncan/QCS/QCS.srcs/sim_1/new/QCS_sim.v"
+79,true,"/home/duncan/QCS/QCS.srcs/sim_1/new/QCS_sim.v"

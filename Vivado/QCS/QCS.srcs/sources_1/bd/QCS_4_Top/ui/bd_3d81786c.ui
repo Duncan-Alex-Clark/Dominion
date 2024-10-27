@@ -1,0 +1,75 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-284,-135",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 7 -x 2480 -y 720 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 320 -y 320 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -x 1460 -y 780 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -x 1970 -y 970 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -x 1970 -y 710 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 3 -x 1040 -y 430 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 2 -x 670 -y 650 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -x 1040 -y 780 -defaultsOSRD
+preplace inst rst_clk_wiz_0_100M -pg 1 -lvl 2 -x 670 -y 510 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -x 2340 -y 730 -defaultsOSRD
+preplace inst encoding_sequencer_0 -pg 1 -lvl 4 -x 1460 -y 470 -defaultsOSRD
+preplace inst encoding_sequencer_1 -pg 1 -lvl 4 -x 1460 -y 70 -defaultsOSRD
+preplace inst encoding_sequencer_2 -pg 1 -lvl 4 -x 1460 -y 210 -defaultsOSRD
+preplace inst encoding_sequencer_3 -pg 1 -lvl 4 -x 1460 -y 330 -defaultsOSRD
+preplace inst QCS_4_wrapper_0 -pg 1 -lvl 5 -x 1970 -y 390 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 6 -x 2340 -y 80 -defaultsOSRD
+preplace inst QCS_4_AXI_0 -pg 1 -lvl 6 -x 2340 -y 510 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 1 5 450 400 900 560 1220 560 1790 1050 2140
+preplace netloc clk_wiz_0_clk_out5 1 1 4 480J 320 NJ 320 1210J 400 1700
+preplace netloc btn_0_0_1 1 2 3 880J 540 1200 140 1780
+preplace netloc encoding_sequencer_0_ch_a 1 4 1 1710 310n
+preplace netloc encoding_sequencer_0_ch_b 1 4 1 1730 390n
+preplace netloc encoding_sequencer_1_ch_a 1 4 1 1790 60n
+preplace netloc encoding_sequencer_1_ch_b 1 4 1 1770 80n
+preplace netloc encoding_sequencer_2_ch_a 1 4 1 1760 200n
+preplace netloc encoding_sequencer_2_ch_b 1 4 1 1740 220n
+preplace netloc encoding_sequencer_3_ch_a 1 4 1 1750 320n
+preplace netloc encoding_sequencer_3_ch_b 1 4 1 1720 340n
+preplace netloc clk_wiz_0_clk_out2 1 1 3 430J 290 NJ 290 1190
+preplace netloc clk_wiz_0_clk_out3 1 1 3 440J 300 NJ 300 1220
+preplace netloc clk_wiz_0_clk_out4 1 1 3 470 310 NJ 310 1220J
+preplace netloc reset_1 1 0 2 220 210 460J
+preplace netloc microblaze_0_intr 1 2 1 860J 440n
+preplace netloc clk_wiz_0_locked 1 1 1 420 290n
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 2 2 870 640 1180
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 2 3 850J 570 NJ 570 1720
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 2 4 890 650 NJ 650 1820 870 2220
+preplace netloc mdm_1_debug_sys_rst 1 1 3 480 850 NJ 850 1170
+preplace netloc axi_uartlite_0_interrupt 1 1 6 490 880 NJ 880 NJ 880 NJ 880 NJ 880 2460
+preplace netloc QCS_4_wrapper_0_REC_0 1 5 1 2150 20n
+preplace netloc QCS_4_wrapper_0_REC_1 1 5 1 2160 40n
+preplace netloc QCS_4_wrapper_0_REC_2 1 5 1 2170 60n
+preplace netloc QCS_4_wrapper_0_REC_3 1 5 1 2180 80n
+preplace netloc QCS_4_wrapper_0_RPM_0 1 5 1 2190 100n
+preplace netloc QCS_4_wrapper_0_RPM_1 1 5 1 2200 120n
+preplace netloc QCS_4_wrapper_0_RPM_2 1 5 1 2210 140n
+preplace netloc QCS_4_wrapper_0_RPM_3 1 5 1 2220 160n
+preplace netloc sys_clock_1 1 0 1 N 330
+preplace netloc microblaze_0_dlmb_1 1 4 1 1740 760n
+preplace netloc microblaze_0_ilmb_1 1 4 1 1700 780n
+preplace netloc microblaze_0_axi_dp 1 4 1 1810 610n
+preplace netloc microblaze_0_interrupt 1 3 1 1190 430n
+preplace netloc microblaze_0_intc_axi 1 2 4 910 550 NJ 550 NJ 550 2120
+preplace netloc microblaze_0_debug 1 3 1 N 770
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 N 710
+preplace netloc axi_uartlite_0_UART 1 6 1 N 720
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 2130 410n
+levelinfo -pg 1 0 320 670 1040 1460 1970 2340 2480
+pagesize -pg 1 -db -bbox -sgen -120 -240 2600 1060
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"3",
+   "da_mb_cnt":"1"
+}

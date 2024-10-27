@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"seq_probe": {
+			"proto_instances": {
+			}
+		}
+	}
+}

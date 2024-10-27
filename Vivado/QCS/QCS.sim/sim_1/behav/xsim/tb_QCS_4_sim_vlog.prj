@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../QCS.gen/sources_1/bd/QCS_4_sim/ipshared/30ef" --include "../../../../QCS.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../QCS.gen/sources_1/bd/design_2/ipshared/30ef" --include "../../../../QCS.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../QCS.gen/sources_1/bd/design_1/ipshared/30ef" \
+"../../../../QCS.srcs/sources_1/new/encoding_sequencer.v" \
+"../../../../QCS.srcs/sources_1/new/QCS_no_lut.v" \
+"../../../../QCS.srcs/sources_1/new/addr_mux.v" \
+"../../../../QCS.srcs/sources_1/new/rpm_lut.v" \
+"../../../../QCS.srcs/sources_1/new/clk_cascade.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/ip/QCS_4_QCS_no_lut_0_0/sim/QCS_4_QCS_no_lut_0_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/ip/QCS_4_QCS_no_lut_1_0/sim/QCS_4_QCS_no_lut_1_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/ip/QCS_4_QCS_no_lut_2_0/sim/QCS_4_QCS_no_lut_2_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/ip/QCS_4_QCS_no_lut_3_0/sim/QCS_4_QCS_no_lut_3_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/ip/QCS_4_addr_mux_0_0/sim/QCS_4_addr_mux_0_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/ip/QCS_4_rpm_lut_0_0/sim/QCS_4_rpm_lut_0_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/ip/QCS_4_clk_cascade_0_0/sim/QCS_4_clk_cascade_0_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4/sim/QCS_4.v" \
+"../../../../QCS.gen/sources_1/bd/QCS_4/hdl/QCS_4_wrapper.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/ip/QCS_4_sim_clk_wiz_0_0/QCS_4_sim_clk_wiz_0_0_clk_wiz.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/ip/QCS_4_sim_clk_wiz_0_0/QCS_4_sim_clk_wiz_0_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/ip/QCS_4_sim_encoding_sequencer_0_0/sim/QCS_4_sim_encoding_sequencer_0_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/ip/QCS_4_sim_encoding_sequencer_1_0/sim/QCS_4_sim_encoding_sequencer_1_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/ip/QCS_4_sim_encoding_sequencer_2_0/sim/QCS_4_sim_encoding_sequencer_2_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/ip/QCS_4_sim_encoding_sequencer_3_0/sim/QCS_4_sim_encoding_sequencer_3_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/ip/QCS_4_sim_QCS_4_wrapper_0_0/sim/QCS_4_sim_QCS_4_wrapper_0_0.v" \
+"../../../../QCS.ip_user_files/bd/QCS_4_sim/sim/QCS_4_sim.v" \
+"../../../../QCS.srcs/sim_1/new/QCS_4_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/duncan/QCS/QCS.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="1,025"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="488"></NameColumnWidth>
+      <ValueColumnWidth column_width="336"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+      <marker label="" time="508" />
+      <marker label="" time="509" />
+   </wave_markers>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_REC_0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_REC_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_REC_0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_REC_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_REC_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_REC_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_REC_2">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_REC_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_REC_2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_REC_3">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_REC_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_REC_3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_RPM_0">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_RPM_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_RPM_0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_RPM_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_RPM_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_RPM_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_RPM_2">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_RPM_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_RPM_2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="QCS_4_Top_i/QCS_4_wrapper_0_RPM_3">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">QCS_4_Top_i/QCS_4_wrapper_0_RPM_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">QCS_4_wrapper_0_RPM_3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

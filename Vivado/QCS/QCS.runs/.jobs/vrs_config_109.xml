@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="QCS_1_clk_wiz_1_0_synth_1" LaunchDir="/home/duncan/QCS/QCS.runs/QCS_1_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="QCS_1_QCS_0_0_synth_1" LaunchDir="/home/duncan/QCS/QCS.runs/QCS_1_QCS_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/duncan/QCS/QCS.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="QCS_1_clk_wiz_1_0_synth_1"/>
+		<Parent Id="QCS_1_QCS_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

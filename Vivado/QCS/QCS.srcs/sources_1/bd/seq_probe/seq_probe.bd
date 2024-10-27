@@ -1,0 +1,165 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x51DAD7B10B3016F1",
+      "device": "xc7a35ticsg324-1L",
+      "gen_directory": "../../../../QCS.gen/sources_1/bd/seq_probe",
+      "name": "seq_probe",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1"
+    },
+    "design_tree": {
+      "c_counter_binary_0": "",
+      "divider_0": "",
+      "encoding_sequencer_0": ""
+    },
+    "ports": {
+      "btn_0": {
+        "type": "data",
+        "direction": "I"
+      },
+      "led_1": {
+        "type": "data",
+        "direction": "O"
+      },
+      "clk_in_100mhz": {
+        "direction": "I"
+      },
+      "ch_a_out": {
+        "type": "data",
+        "direction": "O"
+      },
+      "ch_b_out": {
+        "type": "data",
+        "direction": "O"
+      },
+      "led_3": {
+        "direction": "O"
+      },
+      "led_2": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "c_counter_binary_0": {
+        "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
+        "xci_name": "seq_probe_c_counter_binary_0_0",
+        "xci_path": "ip/seq_probe_c_counter_binary_0_0/seq_probe_c_counter_binary_0_0.xci",
+        "inst_hier_path": "c_counter_binary_0",
+        "parameters": {
+          "Output_Width": {
+            "value": "32"
+          }
+        }
+      },
+      "divider_0": {
+        "vlnv": "xilinx.com:module_ref:divider:1.0",
+        "xci_name": "seq_probe_divider_0_0",
+        "xci_path": "ip/seq_probe_divider_0_0/seq_probe_divider_0_0.xci",
+        "inst_hier_path": "divider_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "counter": {
+            "direction": "I",
+            "left": "31",
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": [
+                  "xilinx.com:interface:datatypes:1.0 {",
+                  "DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum",
+                  "{} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool",
+                  "minimum {} maximum {}} value false}}}} DATA_WIDTH 32",
+                  "}"
+                ],
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "clk_out": {
+            "direction": "O"
+          }
+        }
+      },
+      "encoding_sequencer_0": {
+        "vlnv": "xilinx.com:module_ref:encoding_sequencer:1.0",
+        "xci_name": "seq_probe_encoding_sequencer_0_0",
+        "xci_path": "ip/seq_probe_encoding_sequencer_0_0/seq_probe_encoding_sequencer_0_0.xci",
+        "inst_hier_path": "encoding_sequencer_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "encoding_sequencer",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ch_a": {
+            "direction": "O"
+          },
+          "ch_b": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "btn_0_1": {
+        "ports": [
+          "btn_0",
+          "led_1",
+          "encoding_sequencer_0/rst"
+        ]
+      },
+      "c_counter_binary_0_Q": {
+        "ports": [
+          "c_counter_binary_0/Q",
+          "divider_0/counter"
+        ]
+      },
+      "clk_in_100mhz_1": {
+        "ports": [
+          "clk_in_100mhz",
+          "c_counter_binary_0/CLK"
+        ]
+      },
+      "divider_0_clk_out": {
+        "ports": [
+          "divider_0/clk_out",
+          "encoding_sequencer_0/clk"
+        ]
+      },
+      "encoding_sequencer_0_ch_a": {
+        "ports": [
+          "encoding_sequencer_0/ch_a",
+          "ch_a_out",
+          "led_3"
+        ]
+      },
+      "encoding_sequencer_0_ch_b": {
+        "ports": [
+          "encoding_sequencer_0/ch_b",
+          "ch_b_out",
+          "led_2"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Print_Registers" location="/home/duncan/QCS/Vitis/Print_Registers" platform="/home/duncan/QCS/Vitis/QCS_1_wrapper/export/QCS_1_wrapper/QCS_1_wrapper.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="Print_Registers_system" sysConfig="QCS_1_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="5b1f54475ee3cab4d08b3e76c0ad6222">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1027344377">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.120327812" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="peripheral_tests"/>
+</sdkproject:SdkProject>

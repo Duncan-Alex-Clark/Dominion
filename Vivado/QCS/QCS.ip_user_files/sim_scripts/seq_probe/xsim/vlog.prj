@@ -1,0 +1,9 @@
+verilog xil_defaultlib  \
+"../../../bd/seq_probe/ip/seq_probe_divider_0_0/sim/seq_probe_divider_0_0.v" \
+"../../../bd/seq_probe/ip/seq_probe_encoding_sequencer_0_0/sim/seq_probe_encoding_sequencer_0_0.v" \
+"../../../bd/seq_probe/sim/seq_probe.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

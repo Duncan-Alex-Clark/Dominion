@@ -1,0 +1,181 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x2ED5FA700CF4610F",
+      "device": "xc7a35ticsg324-1L",
+      "gen_directory": "../../../../QCS.gen/sources_1/bd/QCS_1",
+      "name": "QCS_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "QCS_0": ""
+    },
+    "ports": {
+      "REC_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ch_a_0": {
+        "direction": "I"
+      },
+      "ch_b_0": {
+        "direction": "I"
+      },
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "QCS_1_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "rst_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "RPM_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "QCS_0": {
+        "vlnv": "xilinx.com:module_ref:QCS:1.0",
+        "xci_name": "QCS_1_QCS_0_1",
+        "xci_path": "ip/QCS_1_QCS_0_1/QCS_1_QCS_0_1.xci",
+        "inst_hier_path": "QCS_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "QCS",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "QCS_1_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ch_a": {
+            "direction": "I"
+          },
+          "ch_b": {
+            "direction": "I"
+          },
+          "REC": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RPM": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "CH_COUNTER": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "ADDR": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          },
+          "CLK_COUNTER": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "QCS_0_REC": {
+        "ports": [
+          "QCS_0/REC",
+          "REC_0"
+        ]
+      },
+      "QCS_0_RPM": {
+        "ports": [
+          "QCS_0/RPM",
+          "RPM_0"
+        ]
+      },
+      "ch_a_0_1": {
+        "ports": [
+          "ch_a_0",
+          "QCS_0/ch_a"
+        ]
+      },
+      "ch_b_0_1": {
+        "ports": [
+          "ch_b_0",
+          "QCS_0/ch_b"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "QCS_0/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst_0",
+          "QCS_0/rst"
+        ]
+      }
+    }
+  }
+}

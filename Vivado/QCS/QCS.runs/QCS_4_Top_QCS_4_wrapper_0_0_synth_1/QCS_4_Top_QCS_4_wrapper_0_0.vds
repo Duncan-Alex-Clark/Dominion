@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Oct 26 11:36:00 2024
+# Process ID: 1530757
+# Current directory: /home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1
+# Command line: vivado -log QCS_4_Top_QCS_4_wrapper_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source QCS_4_Top_QCS_4_wrapper_0_0.tcl
+# Log file: /home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/QCS_4_Top_QCS_4_wrapper_0_0.vds
+# Journal file: /home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/vivado.jou
+# Running On: duncan-Ub22, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 16, Host memory: 16688 MB
+#-----------------------------------------------------------
+source QCS_4_Top_QCS_4_wrapper_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2067.730 ; gain = 122.992 ; free physical = 8106 ; free virtual = 14184
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/duncan/ip_repo/QCS_4_AXI_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/duncan/ip_repo/QCS_AXI_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/duncan/Data/Vivado/2023.1/data/ip'.
+add_files: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 2220.539 ; gain = 125.996 ; free physical = 7968 ; free virtual = 14046
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: QCS_4_Top_QCS_4_wrapper_0_0
+Command: synth_design -top QCS_4_Top_QCS_4_wrapper_0_0 -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1530868
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2828.301 ; gain = 368.797 ; free physical = 7045 ; free virtual = 13132
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_Top_QCS_4_wrapper_0_0' [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4_Top/ip/QCS_4_Top_QCS_4_wrapper_0_0/synth/QCS_4_Top_QCS_4_wrapper_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_wrapper' [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/hdl/QCS_4_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4' [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/synth/QCS_4.v:13]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_QCS_no_lut_0_0' [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_QCS_no_lut_0_0' (0#1) [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_QCS_no_lut_1_0' [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_QCS_no_lut_1_0' (0#1) [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_QCS_no_lut_2_0' [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_QCS_no_lut_2_0' (0#1) [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_QCS_no_lut_3_0' [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_QCS_no_lut_3_0' (0#1) [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_QCS_no_lut_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_addr_mux_0_0' [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_addr_mux_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_addr_mux_0_0' (0#1) [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_addr_mux_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_clk_cascade_0_0' [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_clk_cascade_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_clk_cascade_0_0' (0#1) [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_clk_cascade_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_rpm_lut_0_0' [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_rpm_lut_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_rpm_lut_0_0' (0#1) [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/.Xil/Vivado-1530757-duncan-Ub22/realtime/QCS_4_rpm_lut_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4' (0#1) [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/synth/QCS_4.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_wrapper' (0#1) [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/hdl/QCS_4_wrapper.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_Top_QCS_4_wrapper_0_0' (0#1) [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4_Top/ip/QCS_4_Top_QCS_4_wrapper_0_0/synth/QCS_4_Top_QCS_4_wrapper_0_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2897.238 ; gain = 437.734 ; free physical = 6954 ; free virtual = 13042
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2912.082 ; gain = 452.578 ; free physical = 6954 ; free virtual = 13042
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2912.082 ; gain = 452.578 ; free physical = 6954 ; free virtual = 13042
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2912.082 ; gain = 0.000 ; free physical = 6954 ; free virtual = 13042
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_rpm_lut_0_0/QCS_4_rpm_lut_0_0/QCS_4_rpm_lut_0_0_in_context.xdc] for cell 'inst/QCS_4_i/rpm_lut_0'
+Finished Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_rpm_lut_0_0/QCS_4_rpm_lut_0_0/QCS_4_rpm_lut_0_0_in_context.xdc] for cell 'inst/QCS_4_i/rpm_lut_0'
+Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_clk_cascade_0_0/QCS_4_clk_cascade_0_0/QCS_4_clk_cascade_0_0_in_context.xdc] for cell 'inst/QCS_4_i/clk_cascade_0'
+Finished Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_clk_cascade_0_0/QCS_4_clk_cascade_0_0/QCS_4_clk_cascade_0_0_in_context.xdc] for cell 'inst/QCS_4_i/clk_cascade_0'
+Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_addr_mux_0_0/QCS_4_addr_mux_0_0/QCS_4_addr_mux_0_0_in_context.xdc] for cell 'inst/QCS_4_i/addr_mux_0'
+Finished Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_addr_mux_0_0/QCS_4_addr_mux_0_0/QCS_4_addr_mux_0_0_in_context.xdc] for cell 'inst/QCS_4_i/addr_mux_0'
+Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_0_0/QCS_4_QCS_no_lut_0_0/QCS_4_QCS_no_lut_0_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_0'
+Finished Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_0_0/QCS_4_QCS_no_lut_0_0/QCS_4_QCS_no_lut_0_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_0'
+Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_1_0/QCS_4_QCS_no_lut_1_0/QCS_4_QCS_no_lut_1_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_1'
+Finished Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_1_0/QCS_4_QCS_no_lut_1_0/QCS_4_QCS_no_lut_1_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_1'
+Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_2_0/QCS_4_QCS_no_lut_2_0/QCS_4_QCS_no_lut_2_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_2'
+Finished Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_2_0/QCS_4_QCS_no_lut_2_0/QCS_4_QCS_no_lut_2_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_2'
+Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_3_0/QCS_4_QCS_no_lut_3_0/QCS_4_QCS_no_lut_3_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_3'
+Finished Parsing XDC File [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_QCS_no_lut_3_0/QCS_4_QCS_no_lut_3_0/QCS_4_QCS_no_lut_3_0_in_context.xdc] for cell 'inst/QCS_4_i/QCS_no_lut_3'
+Parsing XDC File [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2961.008 ; gain = 0.000 ; free physical = 6950 ; free virtual = 13037
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2961.008 ; gain = 0.000 ; free physical = 6950 ; free virtual = 13037
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 6987 ; free virtual = 13075
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 6987 ; free virtual = 13075
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i/rpm_lut_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i/clk_cascade_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i/addr_mux_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i/QCS_no_lut_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i/QCS_no_lut_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i/QCS_no_lut_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/QCS_4_i/QCS_no_lut_3. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 6987 ; free virtual = 13075
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 6987 ; free virtual = 13076
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 6990 ; free virtual = 13079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7005 ; free virtual = 13094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7005 ; free virtual = 13094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7005 ; free virtual = 13094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------+----------+
+|      |BlackBox name         |Instances |
++------+----------------------+----------+
+|1     |QCS_4_QCS_no_lut_0_0  |         1|
+|2     |QCS_4_QCS_no_lut_1_0  |         1|
+|3     |QCS_4_QCS_no_lut_2_0  |         1|
+|4     |QCS_4_QCS_no_lut_3_0  |         1|
+|5     |QCS_4_addr_mux_0_0    |         1|
+|6     |QCS_4_clk_cascade_0_0 |         1|
+|7     |QCS_4_rpm_lut_0_0     |         1|
++------+----------------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |QCS_4_QCS_no_lut_0  |     1|
+|2     |QCS_4_QCS_no_lut_1  |     1|
+|3     |QCS_4_QCS_no_lut_2  |     1|
+|4     |QCS_4_QCS_no_lut_3  |     1|
+|5     |QCS_4_addr_mux_0    |     1|
+|6     |QCS_4_clk_cascade_0 |     1|
+|7     |QCS_4_rpm_lut_0     |     1|
++------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2961.008 ; gain = 452.578 ; free physical = 7017 ; free virtual = 13115
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2961.008 ; gain = 501.504 ; free physical = 7017 ; free virtual = 13115
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2961.008 ; gain = 0.000 ; free physical = 7017 ; free virtual = 13115
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2961.008 ; gain = 0.000 ; free physical = 7276 ; free virtual = 13375
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 1ca8919d
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 2961.008 ; gain = 740.469 ; free physical = 7277 ; free virtual = 13375
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2522.599; main = 2221.114; forked = 355.630
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3895.160; main = 2928.996; forked = 966.164
+INFO: [Common 17-1381] The checkpoint '/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/QCS_4_Top_QCS_4_wrapper_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP QCS_4_Top_QCS_4_wrapper_0_0, cache-ID = d872d0b08d9dc8c0
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/duncan/QCS/QCS.runs/QCS_4_Top_QCS_4_wrapper_0_0_synth_1/QCS_4_Top_QCS_4_wrapper_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file QCS_4_Top_QCS_4_wrapper_0_0_utilization_synth.rpt -pb QCS_4_Top_QCS_4_wrapper_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 26 11:36:44 2024...

@@ -1,0 +1,240 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Oct 25 21:30:54 2024
+# Process ID: 1401575
+# Current directory: /home/duncan/QCS/QCS.runs/QCS_4_rpm_lut_0_0_synth_1
+# Command line: vivado -log QCS_4_rpm_lut_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source QCS_4_rpm_lut_0_0.tcl
+# Log file: /home/duncan/QCS/QCS.runs/QCS_4_rpm_lut_0_0_synth_1/QCS_4_rpm_lut_0_0.vds
+# Journal file: /home/duncan/QCS/QCS.runs/QCS_4_rpm_lut_0_0_synth_1/vivado.jou
+# Running On: duncan-Ub22, OS: Linux, CPU Frequency: 2083.180 MHz, CPU Physical cores: 16, Host memory: 16688 MB
+#-----------------------------------------------------------
+source QCS_4_rpm_lut_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2067.484 ; gain = 121.992 ; free physical = 6460 ; free virtual = 13091
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/duncan/ip_repo/QCS_AXI_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/duncan/Data/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: QCS_4_rpm_lut_0_0
+Command: synth_design -top QCS_4_rpm_lut_0_0 -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1401934
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2803.105 ; gain = 377.801 ; free physical = 4511 ; free virtual = 11166
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'QCS_4_rpm_lut_0_0' [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_rpm_lut_0_0/synth/QCS_4_rpm_lut_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'rpm_lut' [/home/duncan/QCS/QCS.srcs/sources_1/new/rpm_lut.v:5]
+INFO: [Synth 8-3876] $readmem data file '/home/duncan/QCS/output/rpm_lut_init.mem' is read successfully [/home/duncan/QCS/QCS.srcs/sources_1/new/rpm_lut.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'rpm_lut' (0#1) [/home/duncan/QCS/QCS.srcs/sources_1/new/rpm_lut.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'QCS_4_rpm_lut_0_0' (0#1) [/home/duncan/QCS/QCS.gen/sources_1/bd/QCS_4/ip/QCS_4_rpm_lut_0_0/synth/QCS_4_rpm_lut_0_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2879.043 ; gain = 453.738 ; free physical = 4595 ; free virtual = 11250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2896.855 ; gain = 471.551 ; free physical = 4606 ; free virtual = 11261
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2896.855 ; gain = 471.551 ; free physical = 4606 ; free virtual = 11261
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2896.855 ; gain = 0.000 ; free physical = 4606 ; free virtual = 11261
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3010.637 ; gain = 0.000 ; free physical = 4602 ; free virtual = 11257
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3010.637 ; gain = 0.000 ; free physical = 4602 ; free virtual = 11257
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6581 ; free virtual = 13237
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6581 ; free virtual = 13237
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6581 ; free virtual = 13237
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6580 ; free virtual = 13236
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                    ROMs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6557 ; free virtual = 13214
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------------+----------------------+---------------+----------------+
+|Module Name       | RTL Object           | Depth x Width | Implemented As | 
++------------------+----------------------+---------------+----------------+
+|QCS_4_rpm_lut_0_0 | inst/rpmlut_data_reg | 16384x16      | Block RAM      | 
++------------------+----------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6542 ; free virtual = 13199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6542 ; free virtual = 13199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/rpmlut_data_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6542 ; free virtual = 13199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT2     |    16|
+|2     |RAMB36E1 |     8|
+|10    |FDCE     |     1|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 3010.637 ; gain = 471.551 ; free physical = 6541 ; free virtual = 13198
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3010.637 ; gain = 585.332 ; free physical = 6541 ; free virtual = 13198
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3010.637 ; gain = 0.000 ; free physical = 6677 ; free virtual = 13334
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 3 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3010.637 ; gain = 0.000 ; free physical = 6813 ; free virtual = 13470
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b1d07bc6
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 3010.637 ; gain = 903.465 ; free physical = 6796 ; free virtual = 13456
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2546.354; main = 2232.331; forked = 361.254
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3944.781; main = 3010.641; forked = 966.156
+INFO: [Common 17-1381] The checkpoint '/home/duncan/QCS/QCS.runs/QCS_4_rpm_lut_0_0_synth_1/QCS_4_rpm_lut_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP QCS_4_rpm_lut_0_0, cache-ID = 44905148ca8cd549
+INFO: [Common 17-1381] The checkpoint '/home/duncan/QCS/QCS.runs/QCS_4_rpm_lut_0_0_synth_1/QCS_4_rpm_lut_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file QCS_4_rpm_lut_0_0_utilization_synth.rpt -pb QCS_4_rpm_lut_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 25 21:31:52 2024...

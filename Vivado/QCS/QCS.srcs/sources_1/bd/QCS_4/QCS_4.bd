@@ -1,0 +1,743 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x14807AB5689B84BB",
+      "device": "xc7a35ticsg324-1L",
+      "gen_directory": "../../../../QCS.gen/sources_1/bd/QCS_4",
+      "name": "QCS_4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "rpm_lut_0": "",
+      "clk_cascade_0": "",
+      "addr_mux_0": "",
+      "QCS_no_lut_0": "",
+      "QCS_no_lut_1": "",
+      "QCS_no_lut_2": "",
+      "QCS_no_lut_3": ""
+    },
+    "ports": {
+      "REC_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "RPM_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ch_a_0": {
+        "direction": "I"
+      },
+      "ch_b_0": {
+        "direction": "I"
+      },
+      "REC_1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "RPM_1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ch_a_1": {
+        "direction": "I"
+      },
+      "ch_b_1": {
+        "direction": "I"
+      },
+      "REC_2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "RPM_2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ch_a_2": {
+        "direction": "I"
+      },
+      "ch_b_2": {
+        "direction": "I"
+      },
+      "REC_3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "RPM_3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ch_a_3": {
+        "direction": "I"
+      },
+      "ch_b_3": {
+        "direction": "I"
+      },
+      "btn_0": {
+        "direction": "I"
+      },
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "btn_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "QCS_4_clk_2",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "clk_rpm": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "btn_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "QCS_4_clk_3",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "400000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "rpm_lut_0": {
+        "vlnv": "xilinx.com:module_ref:rpm_lut:1.0",
+        "xci_name": "QCS_4_rpm_lut_0_0",
+        "xci_path": "ip/QCS_4_rpm_lut_0_0/QCS_4_rpm_lut_0_0.xci",
+        "inst_hier_path": "rpm_lut_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "rpm_lut",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "400000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "QCS_4_clk_3",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "addr": {
+            "direction": "I",
+            "left": "13",
+            "right": "0"
+          },
+          "data": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "clk_cascade_0": {
+        "vlnv": "xilinx.com:module_ref:clk_cascade:1.0",
+        "xci_name": "QCS_4_clk_cascade_0_0",
+        "xci_path": "ip/QCS_4_clk_cascade_0_0/QCS_4_clk_cascade_0_0.xci",
+        "inst_hier_path": "clk_cascade_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "clk_cascade",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "QCS_4_clk_2",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clk0": {
+            "direction": "O"
+          },
+          "clk1": {
+            "direction": "O"
+          },
+          "clk2": {
+            "direction": "O"
+          },
+          "clk3": {
+            "direction": "O"
+          }
+        }
+      },
+      "addr_mux_0": {
+        "vlnv": "xilinx.com:module_ref:addr_mux:1.0",
+        "xci_name": "QCS_4_addr_mux_0_0",
+        "xci_path": "ip/QCS_4_addr_mux_0_0/QCS_4_addr_mux_0_0.xci",
+        "inst_hier_path": "addr_mux_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "addr_mux",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "QCS_4_clk_2",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "addr0": {
+            "direction": "I",
+            "left": "13",
+            "right": "0"
+          },
+          "addr1": {
+            "direction": "I",
+            "left": "13",
+            "right": "0"
+          },
+          "addr2": {
+            "direction": "I",
+            "left": "13",
+            "right": "0"
+          },
+          "addr3": {
+            "direction": "I",
+            "left": "13",
+            "right": "0"
+          },
+          "addr": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          },
+          "en0": {
+            "direction": "I"
+          },
+          "en1": {
+            "direction": "I"
+          },
+          "en2": {
+            "direction": "I"
+          },
+          "en3": {
+            "direction": "I"
+          }
+        }
+      },
+      "QCS_no_lut_0": {
+        "vlnv": "xilinx.com:module_ref:QCS_no_lut:1.0",
+        "xci_name": "QCS_4_QCS_no_lut_0_0",
+        "xci_path": "ip/QCS_4_QCS_no_lut_0_0/QCS_4_QCS_no_lut_0_0.xci",
+        "inst_hier_path": "QCS_no_lut_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "QCS_no_lut",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ch_a": {
+            "direction": "I"
+          },
+          "ch_b": {
+            "direction": "I"
+          },
+          "data": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "en": {
+            "direction": "O"
+          },
+          "addr": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          },
+          "REC": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RPM": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "QCS_no_lut_1": {
+        "vlnv": "xilinx.com:module_ref:QCS_no_lut:1.0",
+        "xci_name": "QCS_4_QCS_no_lut_1_0",
+        "xci_path": "ip/QCS_4_QCS_no_lut_1_0/QCS_4_QCS_no_lut_1_0.xci",
+        "inst_hier_path": "QCS_no_lut_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "QCS_no_lut",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ch_a": {
+            "direction": "I"
+          },
+          "ch_b": {
+            "direction": "I"
+          },
+          "data": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "en": {
+            "direction": "O"
+          },
+          "addr": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          },
+          "REC": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RPM": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "QCS_no_lut_2": {
+        "vlnv": "xilinx.com:module_ref:QCS_no_lut:1.0",
+        "xci_name": "QCS_4_QCS_no_lut_2_0",
+        "xci_path": "ip/QCS_4_QCS_no_lut_2_0/QCS_4_QCS_no_lut_2_0.xci",
+        "inst_hier_path": "QCS_no_lut_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "QCS_no_lut",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ch_a": {
+            "direction": "I"
+          },
+          "ch_b": {
+            "direction": "I"
+          },
+          "data": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "en": {
+            "direction": "O"
+          },
+          "addr": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          },
+          "REC": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RPM": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "QCS_no_lut_3": {
+        "vlnv": "xilinx.com:module_ref:QCS_no_lut:1.0",
+        "xci_name": "QCS_4_QCS_no_lut_3_0",
+        "xci_path": "ip/QCS_4_QCS_no_lut_3_0/QCS_4_QCS_no_lut_3_0.xci",
+        "inst_hier_path": "QCS_no_lut_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "QCS_no_lut",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ch_a": {
+            "direction": "I"
+          },
+          "ch_b": {
+            "direction": "I"
+          },
+          "data": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "en": {
+            "direction": "O"
+          },
+          "addr": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          },
+          "REC": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "RPM": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Net": {
+        "ports": [
+          "btn_0",
+          "rpm_lut_0/rst",
+          "clk_cascade_0/rst",
+          "addr_mux_0/rst",
+          "QCS_no_lut_0/rst",
+          "QCS_no_lut_1/rst",
+          "QCS_no_lut_2/rst",
+          "QCS_no_lut_3/rst"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "rpm_lut_0/data",
+          "QCS_no_lut_0/data",
+          "QCS_no_lut_1/data",
+          "QCS_no_lut_2/data",
+          "QCS_no_lut_3/data"
+        ]
+      },
+      "QCS_no_lut_0_REC": {
+        "ports": [
+          "QCS_no_lut_0/REC",
+          "REC_0"
+        ]
+      },
+      "QCS_no_lut_0_RPM": {
+        "ports": [
+          "QCS_no_lut_0/RPM",
+          "RPM_0"
+        ]
+      },
+      "QCS_no_lut_0_addr": {
+        "ports": [
+          "QCS_no_lut_0/addr",
+          "addr_mux_0/addr0"
+        ]
+      },
+      "QCS_no_lut_0_en": {
+        "ports": [
+          "QCS_no_lut_0/en",
+          "addr_mux_0/en0"
+        ]
+      },
+      "QCS_no_lut_1_REC": {
+        "ports": [
+          "QCS_no_lut_1/REC",
+          "REC_1"
+        ]
+      },
+      "QCS_no_lut_1_RPM": {
+        "ports": [
+          "QCS_no_lut_1/RPM",
+          "RPM_1"
+        ]
+      },
+      "QCS_no_lut_1_addr": {
+        "ports": [
+          "QCS_no_lut_1/addr",
+          "addr_mux_0/addr1"
+        ]
+      },
+      "QCS_no_lut_1_en": {
+        "ports": [
+          "QCS_no_lut_1/en",
+          "addr_mux_0/en1"
+        ]
+      },
+      "QCS_no_lut_2_REC": {
+        "ports": [
+          "QCS_no_lut_2/REC",
+          "REC_2"
+        ]
+      },
+      "QCS_no_lut_2_RPM": {
+        "ports": [
+          "QCS_no_lut_2/RPM",
+          "RPM_2"
+        ]
+      },
+      "QCS_no_lut_2_addr": {
+        "ports": [
+          "QCS_no_lut_2/addr",
+          "addr_mux_0/addr2"
+        ]
+      },
+      "QCS_no_lut_2_en": {
+        "ports": [
+          "QCS_no_lut_2/en",
+          "addr_mux_0/en2"
+        ]
+      },
+      "QCS_no_lut_3_REC": {
+        "ports": [
+          "QCS_no_lut_3/REC",
+          "REC_3"
+        ]
+      },
+      "QCS_no_lut_3_RPM": {
+        "ports": [
+          "QCS_no_lut_3/RPM",
+          "RPM_3"
+        ]
+      },
+      "QCS_no_lut_3_addr": {
+        "ports": [
+          "QCS_no_lut_3/addr",
+          "addr_mux_0/addr3"
+        ]
+      },
+      "QCS_no_lut_3_en": {
+        "ports": [
+          "QCS_no_lut_3/en",
+          "addr_mux_0/en3"
+        ]
+      },
+      "addr_mux_0_addr": {
+        "ports": [
+          "addr_mux_0/addr",
+          "rpm_lut_0/addr"
+        ]
+      },
+      "ch_a_0_1": {
+        "ports": [
+          "ch_a_0",
+          "QCS_no_lut_0/ch_a"
+        ]
+      },
+      "ch_a_1_1": {
+        "ports": [
+          "ch_a_1",
+          "QCS_no_lut_1/ch_a"
+        ]
+      },
+      "ch_a_2_1": {
+        "ports": [
+          "ch_a_2",
+          "QCS_no_lut_2/ch_a"
+        ]
+      },
+      "ch_a_3_1": {
+        "ports": [
+          "ch_a_3",
+          "QCS_no_lut_3/ch_a"
+        ]
+      },
+      "ch_b_0_1": {
+        "ports": [
+          "ch_b_0",
+          "QCS_no_lut_0/ch_b"
+        ]
+      },
+      "ch_b_1_1": {
+        "ports": [
+          "ch_b_1",
+          "QCS_no_lut_1/ch_b"
+        ]
+      },
+      "ch_b_2_1": {
+        "ports": [
+          "ch_b_2",
+          "QCS_no_lut_2/ch_b"
+        ]
+      },
+      "ch_b_3_1": {
+        "ports": [
+          "ch_b_3",
+          "QCS_no_lut_3/ch_b"
+        ]
+      },
+      "clk_2_1": {
+        "ports": [
+          "clk_0",
+          "clk_cascade_0/clk",
+          "addr_mux_0/clk"
+        ]
+      },
+      "clk_3_1": {
+        "ports": [
+          "clk_rpm",
+          "rpm_lut_0/clk"
+        ]
+      },
+      "clk_cascade_0_clk0": {
+        "ports": [
+          "clk_cascade_0/clk0",
+          "QCS_no_lut_0/clk"
+        ]
+      },
+      "clk_cascade_0_clk1": {
+        "ports": [
+          "clk_cascade_0/clk1",
+          "QCS_no_lut_1/clk"
+        ]
+      },
+      "clk_cascade_0_clk2": {
+        "ports": [
+          "clk_cascade_0/clk2",
+          "QCS_no_lut_3/clk"
+        ]
+      },
+      "clk_cascade_0_clk3": {
+        "ports": [
+          "clk_cascade_0/clk3",
+          "QCS_no_lut_2/clk"
+        ]
+      }
+    }
+  }
+}

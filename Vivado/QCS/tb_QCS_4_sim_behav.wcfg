@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_QCS_4_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_QCS_4_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3,941.100416 us"></ZoomStartTime>
+      <ZoomEndTime time="8,023.100417 us"></ZoomEndTime>
+      <Cursor1Time time="4,401.100416 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="488"></NameColumnWidth>
+      <ValueColumnWidth column_width="320"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/tb_QCS_4_sim/sys_clock">
+      <obj_property name="ElementShortName">sys_clock</obj_property>
+      <obj_property name="ObjectShortName">sys_clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_QCS_4_sim/btn_0_0">
+      <obj_property name="ElementShortName">btn_0_0</obj_property>
+      <obj_property name="ObjectShortName">btn_0_0</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group177">
+      <obj_property name="label">REC/RPM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/REC_0_0">
+         <obj_property name="ElementShortName">REC_0_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REC_0_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/REC_1_0">
+         <obj_property name="ElementShortName">REC_1_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REC_1_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/REC_2_0">
+         <obj_property name="ElementShortName">REC_2_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REC_2_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/REC_3_0">
+         <obj_property name="ElementShortName">REC_3_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REC_3_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/RPM_0_0">
+         <obj_property name="ElementShortName">RPM_0_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RPM_0_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/RPM_1_0">
+         <obj_property name="ElementShortName">RPM_1_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RPM_1_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/RPM_2_0">
+         <obj_property name="ElementShortName">RPM_2_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RPM_2_0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/RPM_3_0">
+         <obj_property name="ElementShortName">RPM_3_0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RPM_3_0[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group20">
+      <obj_property name="label">QCS_no_lut_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/ch_b">
+         <obj_property name="ElementShortName">ch_b</obj_property>
+         <obj_property name="ObjectShortName">ch_b</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/ch_a">
+         <obj_property name="ElementShortName">ch_a</obj_property>
+         <obj_property name="ObjectShortName">ch_a</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/data">
+         <obj_property name="ElementShortName">data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/addr">
+         <obj_property name="ElementShortName">addr[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/REC">
+         <obj_property name="ElementShortName">REC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/RPM">
+         <obj_property name="ElementShortName">RPM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RPM[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/inst/clk_counter">
+         <obj_property name="ElementShortName">clk_counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clk_counter[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/inst/ch_counter">
+         <obj_property name="ElementShortName">ch_counter[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ch_counter[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_0/inst/rpm_reg">
+         <obj_property name="ElementShortName">rpm_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">rpm_reg[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group25">
+      <obj_property name="label">rpm_lut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/rpm_lut_0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/rpm_lut_0/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/rpm_lut_0/addr">
+         <obj_property name="ElementShortName">addr[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/rpm_lut_0/data">
+         <obj_property name="ElementShortName">data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group35">
+      <obj_property name="label">addr_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/inst/conflict">
+         <obj_property name="ElementShortName">conflict</obj_property>
+         <obj_property name="ObjectShortName">conflict</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/addr0">
+         <obj_property name="ElementShortName">addr0[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr0[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/addr1">
+         <obj_property name="ElementShortName">addr1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr1[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/addr2">
+         <obj_property name="ElementShortName">addr2[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr2[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/addr3">
+         <obj_property name="ElementShortName">addr3[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr3[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/addr">
+         <obj_property name="ElementShortName">addr[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/inst/addr_out">
+         <obj_property name="ElementShortName">addr_out[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/en0">
+         <obj_property name="ElementShortName">en0</obj_property>
+         <obj_property name="ObjectShortName">en0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/en1">
+         <obj_property name="ElementShortName">en1</obj_property>
+         <obj_property name="ObjectShortName">en1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/en2">
+         <obj_property name="ElementShortName">en2</obj_property>
+         <obj_property name="ObjectShortName">en2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/addr_mux_0/en3">
+         <obj_property name="ElementShortName">en3</obj_property>
+         <obj_property name="ObjectShortName">en3</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group46">
+      <obj_property name="label">QCS_no_lut_3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/ch_a">
+         <obj_property name="ElementShortName">ch_a</obj_property>
+         <obj_property name="ObjectShortName">ch_a</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/ch_b">
+         <obj_property name="ElementShortName">ch_b</obj_property>
+         <obj_property name="ObjectShortName">ch_b</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/data">
+         <obj_property name="ElementShortName">data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/addr">
+         <obj_property name="ElementShortName">addr[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/REC">
+         <obj_property name="ElementShortName">REC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/RPM">
+         <obj_property name="ElementShortName">RPM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RPM[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/QCS_no_lut_3/inst/clk_counter">
+         <obj_property name="ElementShortName">clk_counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clk_counter[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group54">
+      <obj_property name="label">clk_wizard</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/clk_wiz_0/clk_out1">
+         <obj_property name="ElementShortName">clk_out1</obj_property>
+         <obj_property name="ObjectShortName">clk_out1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/clk_wiz_0/clk_out2">
+         <obj_property name="ElementShortName">clk_out2</obj_property>
+         <obj_property name="ObjectShortName">clk_out2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/clk_wiz_0/clk_out3">
+         <obj_property name="ElementShortName">clk_out3</obj_property>
+         <obj_property name="ObjectShortName">clk_out3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/clk_wiz_0/clk_out4">
+         <obj_property name="ElementShortName">clk_out4</obj_property>
+         <obj_property name="ObjectShortName">clk_out4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/clk_wiz_0/clk_out5">
+         <obj_property name="ElementShortName">clk_out5</obj_property>
+         <obj_property name="ObjectShortName">clk_out5</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/clk_wiz_0/clk_in1">
+         <obj_property name="ElementShortName">clk_in1</obj_property>
+         <obj_property name="ObjectShortName">clk_in1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group68">
+      <obj_property name="label">clk_cascade</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk1">
+         <obj_property name="ElementShortName">clk1</obj_property>
+         <obj_property name="ObjectShortName">clk1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk2">
+         <obj_property name="ElementShortName">clk2</obj_property>
+         <obj_property name="ObjectShortName">clk2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk3">
+         <obj_property name="ElementShortName">clk3</obj_property>
+         <obj_property name="ObjectShortName">clk3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk_input">
+         <obj_property name="ElementShortName">clk_input</obj_property>
+         <obj_property name="ObjectShortName">clk_input</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk0_reg">
+         <obj_property name="ElementShortName">clk0_reg</obj_property>
+         <obj_property name="ObjectShortName">clk0_reg</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk1_reg">
+         <obj_property name="ElementShortName">clk1_reg</obj_property>
+         <obj_property name="ObjectShortName">clk1_reg</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk2_reg">
+         <obj_property name="ElementShortName">clk2_reg</obj_property>
+         <obj_property name="ObjectShortName">clk2_reg</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_QCS_4_sim/dut/QCS_4_wrapper_0/inst/QCS_4_i/clk_cascade_0/inst/clk3_reg">
+         <obj_property name="ElementShortName">clk3_reg</obj_property>
+         <obj_property name="ObjectShortName">clk3_reg</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER QCS_1C
+	OPTION supported_peripherals = (QCS_1C);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = QCS_1C;
+END DRIVER
