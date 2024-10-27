@@ -170,4 +170,4 @@ This command will checkout your new branch with teh dev branch serving as the he
 
 Once you have finished writing the code for your ticket, feature, bug, etc., you will want to pull those changes into the dev branch. In most cases, only code in the dev branch is ever merged with main. If you want your code to be included in a stable release, you will first have to generate a pull request into dev.
 
-This is done throught the GitHub website. Navigate to your branch in the 
+This is done throught the GitHub website. Navigate to your branch and at the top of the screen, you should see a 
