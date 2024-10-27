@@ -176,15 +176,15 @@ This is done throught the GitHub website. Navigate to your branch and at the top
 
 After selecting the generate pull request button, you will be take to the PR screen. Check to make sure the PR has not automatically assumed you would like to pull this code into main. If it says main, switch the option to dev. Code contributors can only generate PRs for the dev branch. Only on rare occasions are PRs into main accepted.
 
-![Top of the PR page](assets/prTop)
-![Branch options](assets/branchOptions)
-![Selected dev branch](assets/afterSwitch)
+![Top of the PR page](assets/prTop.png)
+![Branch options](assets/branchOptions.png)
+![Selected dev branch](assets/afterSwitch.png)
 
 Once you have selected the correct branch as base, you can continue to write a description of the PR. As a requirement for accepting a PR, you must write a description that conforms to the PR template which can be found [here](pull_request_template.md).
 
 
-![PR template](assets/prTemplate)
-![PR template preview](assets/prTemplatePreview)
+![PR template](assets/prTemplate.png)
+![PR template preview](assets/prTemplatePreview.png)
 
 If all the items have been documented and the checklist items have been completed, you can submit your PR. 
 
