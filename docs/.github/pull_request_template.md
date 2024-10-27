@@ -9,3 +9,5 @@
 - [ ] A brief description of what my code does can be found in the readme.md under "About".
 - [ ] Dependencies are clearly noted in the readme.md under "Dependencies".
 - [ ] Your build environment has been clearly noted in the readme.md under "Environment".
+
+### Additional Notes
