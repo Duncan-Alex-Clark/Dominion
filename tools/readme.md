@@ -1,0 +1,5 @@
+# Overview 
+This subdirectory contains tools that are both necessary and useful to the development of the project 
+
+## Petalinux
+For this project the PetaLinux 2023.1 tool chain is needed. Which can be found [here](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/archive.html). Installing instructions/directions can be found [here](https://docs.amd.com/r/2023.1-English/ug1144-petalinux-tools-reference-guide/PetaLinux-Working-Environment-Setup). Due to size limitation the tool itself cannot be stored remotely within this repository. Therefore local installation is required, if further work with this tool is required. For assistance a support script to assist with libray and package installation can be found at `\Dominion\tools\petalinux\package_installer.sh`. If issues arise with the installation script the list of necessary libs/packages for the installation of PetaLinux can be found [here](https://adaptivesupport.amd.com/s/article/000035006?language=en_US) and are located within the .xlsx file at the bottom of the page. 
